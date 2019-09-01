@@ -101,6 +101,10 @@ def mulnestedLoop():
         print("--------------")
 
 
+def wloop():
+
+        print("Hello, in w loop.")
+
 
 
 loopfunc()
@@ -110,3 +114,4 @@ bloopfunc()
 nestedLoop()
 numnestedLoop()
 mulnestedLoop()
+wloop()
