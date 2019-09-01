@@ -1,9 +1,11 @@
+##Notice I use print("----") in a couple of functions for my own use to clarify up my output
 #For Loop
 def loopfunc():
 
     a = ["Walt","Gus","Jesse"]
     for element in a:
         print(element)
+
 
 def nextfloop():
 
@@ -29,6 +31,7 @@ def bloopfunc():
         for i in range(5):
                 total = total + i
                 print(total)
+
 
 def nestedLoop():
 
@@ -65,7 +68,8 @@ def numnestedLoop():
 
         
         print("The answer is : ",total2)
-                
+        print("--------")
+
 def mulnestedLoop():        
 #Creating three varaibles to do a nested loop times 3               
         x = [55,100,167]
@@ -103,8 +107,34 @@ def mulnestedLoop():
 
 def wloop():
 
-        print("Hello, in w loop.")
+        total = 6
+        while total < 10:
+                print(total)
+                total +=1
+        print("--------")
 
+
+def wloopone():
+
+        i = 1
+        while i < 20:
+                print(i)
+                if (i == 7):
+                        break
+                #Keep incrementing until if statement is true
+                i += 2
+
+        print("--------")
+
+def elseloop():
+        
+        i=3
+        while i < 6:
+                print(i)
+                i += 1
+        else:
+                print("i is no longer less than 6.")
+                print("--------")
 
 
 loopfunc()
@@ -115,3 +145,5 @@ nestedLoop()
 numnestedLoop()
 mulnestedLoop()
 wloop()
+wloopone()
+elseloop()
